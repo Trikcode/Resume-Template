@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap');
+:root {
+  --font-fam: 'Montserrat', sans-serif;
+  --g-color: rgb(202, 100, 4);
+  --light-color: rgb(236, 186, 138);
+  --font-size: 12px;
+  --paddingbtm: 26px;
+  --paddingrightbtm: 10px;
+  --fontsize: 13px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(189, 187, 187);
+}
+.resume-container {
+  width: 800px;
+  height: auto;
+  display: flex;
+  margin: 50px auto;
+  background-color: #fff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.wrapper {
+  width: 300px;
+  padding-right: 8px;
+  background: var(--g-color);
+  padding-bottom: 8px;
+  margin-top: 30px;
+  height: 100%;
+}
+.left-container {
+  width: 100%;
+  background: rgb(24, 21, 21);
+  padding: 40px 0px 25px 25px;
+  margin-top: -30px;
+  height: 100%;
+}
+.left-container .avator {
+  width: 100%;
+  height: 210px;
+  padding-right: 20px;
+  background: var(--g-color);
+  border-radius: 100px 0px 0px 100px;
+  padding: 15px;
+}
+.avator img {
+  object-fit: cover;
+}
+.left-container .avator img {
+  border-radius: 100%;
+  width: 100%;
+  height: 100%;
+}
+.left-container .left-details {
+  padding: 30px 0px 30px 0px;
+}
+.left-details .title {
+  margin-bottom: 20px;
+}
+.left-container .left-details .name {
+  color: #fff;
+  font-weight: bold;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-family: var(--font-fam);
+}
+.left-container .left-details .job {
+  color: rgba(255, 255, 255, 0.698);
+  font-weight: 200;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-family: var(--font-fam);
+}
+.left-details .profile-info {
+  padding-top: 15px;
+}
+.profile-info .contact-name {
+  color: #fff;
+  text-transform: uppercase;
+  padding-bottom: 8px;
+  font-size: var(--font-size);
+  font-family: var(--font-fam);
+}
+.left-details .profile-info .contact-underline {
+  width: 100%;
+  height: 2px;
+  background: #009fd9;
+  position: relative;
+  background: var(--light-color);
+  margin-bottom: var(--paddingbtm);
+}
+
+.left-details .profile-info .contact-underline span {
+  position: absolute;
+  top: -3px;
+  right: 0;
+  height: 8px;
+  background: var(--g-color);
+  border-radius: 10px 0px 0px 10px;
+}
+.left-details .order-items {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
+.left-details .order-items .icon {
+  margin-right: 25px;
+  color: #fff;
+  font-size: 13px;
+}
+.left-details .order-items .result {
+  margin-right: 15px;
+  color: rgba(255, 255, 255, 0.698);
+  font-size: 13px;
+  font-family: var(--font-fam);
+}
+.order-items .bold {
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;
+  font-family: var(--font-fam);
+}
+.order-items .d-light {
+  color: rgba(255, 255, 255, 0.787);
+  font-weight: 200;
+  font-size: 10px;
+  font-family: var(--font-fam);
+}
+.order-items .l-light {
+  color: rgba(255, 255, 255, 0.527);
+  font-weight: 200;
+  font-size: 10px;
+  font-family: var(--font-fam);
+}
+.order-items .award {
+  color: #fff;
+  font-family: var(--font-fam);
+  font-size: 10px;
+}
+.profile-info .two {
+  justify-content: space-between;
+  padding-right: 15px;
+}
+.profile-info .three {
+  justify-content: space-between;
+  padding-right: 20px;
+  align-content: center;
+  align-items: flex-start;
+}
+.left-details .profile-info .graphic {
+  width: 50%;
+  height: 2px;
+  background: #009fd9;
+  position: relative;
+  background: var(--light-color);
+  margin-bottom: var(--paddingbtm);
+  margin-top: 5px;
+}
+
+.left-details .profile-info .graphic span {
+  position: absolute;
+  top: -3px;
+  left: 0;
+  height: 8px;
+  background: var(--g-color);
+  border-radius: 5px;
+}
+/* right-container */
+.right-container {
+  width: 620px;
+  background: #fff;
+  padding: 30px;
+}
+/* About */
+.right-container .about-container {
+  padding-bottom: 30px;
+  padding-top: 8px;
+}
+.right-container .bold {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: var(--font-fam);
+}
+.right-container .about-container p {
+  font-family: var(--font-fam);
+  font-size: var(--fontsize);
+}
+.right-container .exp-details {
+  display: flex;
+  align-items: center;
+}
+.all .title {
+  padding-top: 20px;
+}
+.exp-details .iconn {
+  margin-right: 60px;
+  font-size: 30px;
+  background: var(--g-color);
+  color: #fff;
+  padding: 10px;
+  border-radius: 100%;
+}
+.experience-underline {
+  width: 250%;
+  max-width: 300px;
+  height: 2px;
+  background: #009fd9;
+  position: relative;
+  background: var(--light-color);
+  margin-bottom: var(--paddingrightbtm);
+  margin-top: 5px;
+}
+
+.experience-underline span {
+  position: absolute;
+  top: -3px;
+  left: 0;
+  height: 8px;
+  background: var(--g-color);
+  border-radius: 5px;
+}
+.exp-details {
+  padding-bottom: 10px;
+}
+.exp-details .year {
+  margin-right: 40px;
+  font-family: var(--font-fam);
+  font-weight: 700;
+  font-size: var(--fontsize);
+}
+.exp-content .dd-light {
+  font-family: var(--font-fam);
+  font-weight: 700;
+  font-size: 15px;
+}
+.exp-content .d-light {
+  font-family: var(--font-fam);
+  font-weight: 200;
+  font-size: 15px;
+}
+.exp-content ul li {
+  font-family: var(--font-fam);
+  font-size: var(--fontsize);
+}
+.hobbies .icons {
+  display: flex;
+  margin-left: 110px;
+}
+.hobby-details .icons i {
+  font-size: 40px;
+  padding-right: 30px;
+}
